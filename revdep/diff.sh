@@ -4,7 +4,7 @@ set -e
 
 R -q -e 'remove.packages(c("dplyr", "tibble", "rlang"))' || true
 
-old_tag=v0.5.0
+old_tag=v0.7.0
 branch=$(git symbolic-ref --short HEAD)
 
 cd $(dirname $0)/..
