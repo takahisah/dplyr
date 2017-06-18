@@ -1,7 +1,7 @@
 library("devtools")
 
 Sys.setenv(NOT_CRAN = FALSE)
-revdep_check(threads = parallel::detectCores())
+revdep_check(threads = parallel::detectCores(), ignore = c("nzelect", "fingertipsR"))
 revdep_check_save_summary()
 revdep_check_print_problems()
 
