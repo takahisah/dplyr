@@ -10,7 +10,7 @@
 |language |(EN)                         |
 |collate  |en_US.UTF-8                  |
 |tz       |Zulu                         |
-|date     |2017-06-17                   |
+|date     |2017-06-18                   |
 
 ## Packages
 
@@ -21,9 +21,9 @@
 |bindrcpp       |   |0.2        |2017-06-17 |Github (krlmlr/bindrcpp@2d09112) |
 |bit64          |   |0.9-7      |2017-05-08 |cran (@0.9-7)                    |
 |covr           |   |2.2.2      |2017-01-05 |cran (@2.2.2)                    |
-|DBI            |   |0.6-13     |2017-05-08 |Github (rstats-db/DBI@f6500a5)   |
+|DBI            |   |0.6-14     |2017-06-17 |Github (rstats-db/DBI@0f390df)   |
 |dbplyr         |   |1.0.0      |2017-06-09 |CRAN (R 3.4.0)                   |
-|dplyr          |   |0.7.0      |2017-06-09 |cran (@0.7.0)                    |
+|dplyr          |   |0.7.0      |2017-06-18 |local (tidyverse/dplyr@NA)       |
 |dtplyr         |   |0.0.2      |2017-04-21 |cran (@0.0.2)                    |
 |ggplot2        |   |2.2.1      |2016-12-30 |cran (@2.2.1)                    |
 |glue           |   |1.1.1.9000 |2017-06-17 |Github (tidyverse/glue@61ceb41)  |
@@ -41,7 +41,7 @@
 |rmarkdown      |   |1.6        |2017-06-15 |cran (@1.6)                      |
 |RMySQL         |   |0.10.11    |2017-03-29 |cran (@0.10.11)                  |
 |RPostgreSQL    |   |0.4-1      |2016-05-08 |cran (@0.4-1)                    |
-|RSQLite        |   |1.1-17     |2017-06-17 |local                            |
+|RSQLite        |   |1.1-2      |2017-01-08 |CRAN (R 3.4.0)                   |
 |testthat       |   |1.0.2      |2016-04-23 |cran (@1.0.2)                    |
 |tibble         |   |1.3.3      |2017-05-28 |cran (@1.3.3)                    |
 |withr          |   |1.0.2      |2016-06-20 |CRAN (R 3.4.0)                   |
@@ -74,6 +74,7 @@
 |geoknife           |1.5.5     |      0|        1|     0|
 |geoSpectral        |0.17.3    |      1|        0|     0|
 |ggfortify          |0.4.1     |      2|        0|     1|
+|ggmap              |2.6.1     |      1|        0|     0|
 |grattan            |1.5.0.0   |      0|        1|     0|
 |gutenbergr         |0.1.2     |      1|        0|     0|
 |harrietr           |0.2.2     |      1|        0|     0|
@@ -83,7 +84,7 @@
 |implyr             |0.1.0     |      1|        0|     0|
 |incadata           |0.5.3     |      1|        0|     0|
 |infuser            |0.2.6     |      0|        2|     0|
-|lemon              |0.3.0     |      1|        0|     0|
+|lemon              |0.3.0     |      0|        1|     0|
 |lplyr              |0.1.6     |      1|        1|     0|
 |metaplot           |0.1.2     |      1|        0|     0|
 |mnis               |0.2.6     |      1|        0|     0|
@@ -92,17 +93,12 @@
 |myTAI              |0.5.0     |      1|        0|     1|
 |nandb              |0.2.0     |      1|        0|     0|
 |NFP                |0.99.2    |      0|        1|     2|
-|nzelect            |0.3.3     |      0|        1|     0|
 |officer            |0.1.4     |      2|        1|     0|
-|openair            |2.1-0     |      1|        0|     0|
 |padr               |0.3.0     |      1|        0|     0|
-|poplite            |0.99.17.3 |      2|        1|     0|
 |poppr              |2.4.1     |      0|        1|     0|
 |rattle             |4.1.0     |      0|        1|     3|
 |rmcfs              |1.2.5     |      0|        1|     2|
 |RPresto            |1.2.1     |      1|        1|     1|
-|RSDA               |2.0       |      1|        0|     0|
-|sf                 |0.5-0     |      1|        0|     1|
 |shazam             |0.1.7     |      1|        2|     0|
 |sp500SlidingWindow |0.1.0     |      1|        1|     0|
 |SpaDES             |1.3.1     |      0|        1|     2|
@@ -110,6 +106,8 @@
 |sqlscore           |0.1.1     |      2|        0|     1|
 |ss3sim             |0.9.5     |      0|        1|     0|
 |stplanr            |0.1.8     |      1|        0|     0|
+|SWMPr              |2.2.0     |      1|        0|     0|
+|tadaatoolbox       |0.12.0    |      0|        1|     0|
 |taxizedb           |0.1.0     |      1|        0|     0|
 |texmexseq          |0.3       |      1|        0|     1|
 |textmining         |0.0.1     |      0|        1|     0|
@@ -117,11 +115,13 @@
 |tidyquant          |0.5.1     |      2|        0|     1|
 |tidytext           |0.1.2     |      2|        1|     0|
 |tigger             |0.2.9.999 |      0|        1|     0|
+|timekit            |0.3.0     |      1|        0|     0|
 |timelineR          |0.1.0     |      1|        0|     0|
 |treeplyr           |0.1.2     |      1|        0|     1|
 |tropr              |0.1.2     |      0|        1|     0|
 |unpivotr           |0.1.1     |      1|        0|     0|
 |wrswoR             |1.0-1     |      0|        1|     1|
+|WRTDStidal         |1.0.1     |      1|        0|     0|
 
 ## ameco (0.2.7)
 Maintainer: Eric Persson <expersso5@gmail.com>  
@@ -290,23 +290,23 @@ Running examples in ‘broom-Ex.R’ failed
 The error most likely occurred in:
 
 > base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: gmm_tidiers
-> ### Title: Tidying methods for generalized method of moments "gmm" objects
-> ### Aliases: glance.gmm gmm_tidiers tidy.gmm
+> ### Name: acf_tidiers
+> ### Title: Tidying method for the acf function
+> ### Aliases: acf_tidiers tidy.acf
 > 
 > ### ** Examples
-... 58 lines ...
-+     mutate(variable = reorder(variable, estimate)) %>%
-+     ggplot(aes(estimate, variable)) +
-+     geom_point() +
-+     geom_errorbarh(aes(xmin = conf.low, xmax = conf.high)) +
-+     facet_wrap(~ term) +
-+     geom_vline(xintercept = 0, color = "red", lty = 2)
-+ }
-Error in `colnames<-`(`*tmp*`, value = c("conf.low", "conf.high")) : 
-  attempt to set 'colnames' on an object with less than two dimensions
-Calls: tidy -> tidy.gmm -> process_lm -> colnames<-
-Execution halted
+... 97 lines ...
+ 4: f(..., self = self)
+ 5: self$position$compute_layer(data, params, layout)
+ 6: f(..., self = self)
+ 7: l$compute_position(d, layout)
+ 8: f(l = layers[[i]], d = data[[i]])
+ 9: by_layer(function(l, d) l$compute_position(d, layout))
+10: ggplot_build(x)
+11: print.ggplot(x)
+12: function (x, ...) UseMethod("print")(x)
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
 
 checking tests ... ERROR
   Running ‘test-all.R’
@@ -359,7 +359,7 @@ Last 13 lines of output:
          call. = FALSE, domain = NA)
   
   testthat results ================================================================
-  OK: 30 SKIPPED: 0 FAILED: 1
+  OK: 28 SKIPPED: 0 FAILED: 1
   1. Error: write_chunkwise to db works (@test-write.R#29) 
   
   Error: testthat unit tests failed
@@ -377,7 +377,7 @@ Bug reports: https://github.com/wahani/dat/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [47s/48s]
+  Running ‘testthat.R’ [47s/46s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -460,7 +460,7 @@ Bug reports: https://github.com/paulhendricks/describer/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [122s/124s]
+  Running ‘testthat.R’ [122s/121s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -514,12 +514,12 @@ The error most likely occurred in:
 > 
 > ### ** Examples
 ... 6 lines ...
-17 Jun 15:19    Test set test_fraction 1 of 3 (0.7)
-17 Jun 15:19      Evaluating modeling performance...
-17 Jun 15:19    Test set test_fraction 2 of 3 (0.5)
-17 Jun 15:19      Evaluating modeling performance...
-17 Jun 15:19    Test set test_fraction 3 of 3 (0.3)
-17 Jun 15:19      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 1 of 3 (0.7)
+18 Jun 19:58      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 2 of 3 (0.5)
+18 Jun 19:58      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 3 of 3 (0.3)
+18 Jun 19:58      Evaluating modeling performance...
 > plot(lc)
 Error in select.list(., test_fraction = TRUE, fold = TRUE, method = TRUE,  : 
   unused arguments (test_fraction = TRUE, fold = TRUE, method = TRUE, performance = "error")
@@ -547,15 +547,15 @@ checking tests ... ERROR
   Running ‘testthat.R’
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
-  downloaded 11 KB
+  downloaded 10 KB
   
   trying URL 'http://www.nytimes.com'
-  Content type 'text/html; charset=utf-8' length 226249 bytes (220 KB)
+  Content type 'text/html; charset=utf-8' length 229901 bytes (224 KB)
   ==================================================
-  downloaded 220 KB
+  downloaded 224 KB
   
   testthat results ================================================================
-  OK: 16 SKIPPED: 0 FAILED: 3
+  OK: 15 SKIPPED: 0 FAILED: 3
   1. Error: sqlite works (@test-etl.R#9) 
   2. Failure: dplyr works (@test-etl.R#25) 
   3. Error: MonetDBLite works (@test-etl.R#54) 
@@ -602,7 +602,7 @@ Calls: make_time_cluster_data ... make_time_cluster_data.time_sequence_data -> d
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [109m/110m]
+  Running ‘testthat.R’ [112m/110m]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   Computing t.test for each time bin...
@@ -751,29 +751,56 @@ Error: `x` must be a vector, not a ts object, do you want `stats::lag()`?
 Execution halted
 
 checking tests ... ERROR
-  Running ‘test-all.R’
+  Running ‘test-all.R’ [61s/59s]
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  16: eval(exprs, env)
-  17: source_file(path, new.env(parent = env), chdir = TRUE)
-  18: force(code)
-  19: with_reporter(reporter = reporter, start_end_reporter = start_end_reporter,     {        lister$start_file(basename(path))        source_file(path, new.env(parent = env), chdir = TRUE)        end_context()    })
-  20: FUN(X[[i]], ...)
-  21: lapply(paths, test_file, env = env, reporter = current_reporter,     start_end_reporter = FALSE, load_helpers = FALSE)
-  22: force(code)
-  23: with_reporter(reporter = current_reporter, results <- lapply(paths,     test_file, env = env, reporter = current_reporter, start_end_reporter = FALSE,     load_helpers = FALSE))
-  24: test_files(paths, reporter = reporter, env = env, ...)
-  25: test_dir(test_path, reporter = reporter, env = env, filter = filter,     ...)
-  26: with_top_env(env, {    test_dir(test_path, reporter = reporter, env = env, filter = filter,         ...)})
-  27: run_tests(package, test_path, filter, reporter, ...)
-  28: test_check("ggfortify")
-  An irrecoverable exception occurred. R is aborting now ...
-  Segmentation fault (core dumped)
+  8: eval_bare(dot$expr, dot$env) at /tmp/RtmpIkK7Ul/devtools41257f8be71a/rlang/R/dots.R:91
+  9: lapply(seq(1:lags), .lag)
+  10: FUN(X[[i]], ...)
+  11: as.vector(lag(ts, k))
+  12: lag(ts, k)
+  13: bad_args("x", "must be a vector, not a ts object, do you want `stats::lag()`?") at /home/muelleki/git/R/dplyr/R/lead-lag.R:65
+  14: glubort(fmt_args(args), ..., .envir = .envir) at /home/muelleki/git/R/dplyr/R/error.R:21
+  15: .abort(text) at /home/muelleki/git/R/dplyr/R/error.R:51
+  
+  testthat results ================================================================
+  OK: 1442 SKIPPED: 9 FAILED: 1
+  1. Error: gglagplot (@test-tslib.R#103) 
+  
+  Error: testthat unit tests failed
+  Execution halted
 
 checking installed package size ... NOTE
   installed size is  5.7Mb
   sub-directories of 1Mb or more:
     doc   5.0Mb
+```
+
+## ggmap (2.6.1)
+Maintainer: David Kahle <david.kahle@gmail.com>  
+Bug reports: https://github.com/dkahle/ggmap/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘ggmap-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: get_map
+> ### Title: Grab a map.
+> ### Aliases: get_map
+> 
+> ### ** Examples
+> 
+> map <- get_map()
+Warning in download.file(url, destfile = tmp, quiet = !messaging, mode = "wb") :
+  cannot open URL 'http://maps.googleapis.com/maps/api/staticmap?center=29.763284,-95.363271&zoom=10&size=640x640&scale=2&maptype=terrain&language=en-EN&sensor=false': HTTP status was '403 Forbidden'
+Error in download.file(url, destfile = tmp, quiet = !messaging, mode = "wb") : 
+  cannot open URL 'http://maps.googleapis.com/maps/api/staticmap?center=29.763284,-95.363271&zoom=10&size=640x640&scale=2&maptype=terrain&language=en-EN&sensor=false'
+Calls: get_map -> get_googlemap -> download.file
+Execution halted
 ```
 
 ## grattan (1.5.0.0)
@@ -888,7 +915,7 @@ Bug reports: https://github.com/hughjonesd/huxtable/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [12s/14s]
+  Running ‘testthat.R’ [11s/11s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
          message = handle_message)) at /tmp/Rtmpf6YF8j/devtools1eed5a0addc9/testthat/R/evaluate-promise.R:42
@@ -950,8 +977,8 @@ Last 13 lines of output:
   dplyr::filter(testdata, persnr == 198505043334) inherits from `tbl_df/tbl/data.frame` not `incadata`.
   
   
-  Using tempfile: /tmp/RtmpkY622D/ex_datad537057a687.csv2
-  [1] "ex_datad537057a687.csv2"
+  Using tempfile: /tmp/RtmpLL1f6m/ex_data86b09ab0a7c.csv2
+  [1] "ex_data86b09ab0a7c.csv2"
   file size: 1103 kb
   testthat results ================================================================
   OK: 40 SKIPPED: 0 FAILED: 1
@@ -989,31 +1016,17 @@ Execution halted
 Maintainer: Stefan McKinnon Edwards <sme@iysik.com>  
 Bug reports: https://github.com/stefanedwards/lemon/issues
 
-1 error  | 0 warnings | 0 notes
+0 errors | 1 warning  | 0 notes
 
 ```
-checking examples ... ERROR
-Running examples in ‘lemon-Ex.R’ failed
-The error most likely occurred in:
+checking re-building of vignette outputs ... WARNING
+Error in re-building vignettes:
+  ...
+Quitting from lines 186-195 (legends.Rmd) 
+Error: processing vignette 'legends.Rmd' failed with diagnostics:
+value of 'SET_ATTRIB' must be a pairlist or NULL, not a 'integer'
+Execution halted
 
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: grid_arrange_shared_legend
-> ### Title: Share a legend between multiple plots
-> ### Aliases: grid_arrange_shared_legend
-> 
-> ### ** Examples
-... 7 lines ...
-> p4 <- qplot(depth, price, data = dsamp, colour = clarity)
-> grid_arrange_shared_legend(p1, p2, p3, p4, ncol = 4, nrow = 1)
-
- *** caught segfault ***
-address 0x120, cause 'memory not mapped'
-
-Traceback:
- 1: arrangeGrob(do.call(arrangeGrob, gl), legend, ncol = 1, heights = unit.c(unit(1,     "npc") - lheight, lheight))
- 2: grid_arrange_shared_legend(p1, p2, p3, p4, ncol = 4, nrow = 1)
-An irrecoverable exception occurred. R is aborting now ...
-Segmentation fault (core dumped)
 ```
 
 ## lplyr (0.1.6)
@@ -1216,9 +1229,11 @@ Error: 'src_sql' is not an exported object from 'namespace:dplyr'
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [17s/48s]
+  Running ‘testthat.R’ [17s/52s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
+  testthat results ================================================================
+  OK: 132 SKIPPED: 0 FAILED: 13
   1. Error: we can connect (@test_03_dplyr.R#15) 
   2. Error: dplyr copy_to() (@test_03_dplyr.R#27) 
   3. Error: dplyr tbl( sql() ) (@test_03_dplyr.R#35) 
@@ -1231,8 +1246,6 @@ Last 13 lines of output:
   1. ...
   
   Error: testthat unit tests failed
-  In addition: Warning message:
-  call dbDisconnect() when finished working with a connection 
   Execution halted
 
 checking installed package size ... NOTE
@@ -1265,7 +1278,7 @@ Bug reports: https://github.com/HajkD/myTAI/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/54s]
+  Running ‘testthat.R’ [52s/53s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   
@@ -1344,19 +1357,6 @@ checking installed package size ... NOTE
     data   7.5Mb
 ```
 
-## nzelect (0.3.3)
-Maintainer: Peter Ellis <peter.ellis2013nz@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-Terminated
-
-```
-
 ## officer (0.1.4)
 Maintainer: David Gohel <david.gohel@ardata.fr>  
 Bug reports: https://github.com/davidgohel/officer/issues
@@ -1384,7 +1384,7 @@ Error: file.exists(src) is not TRUE
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/53s]
+  Running ‘testthat.R’ [50s/50s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   8: function_list[[k]](value) at /tmp/RtmpT6Czo8/R.INSTALL13c163d710cb/magrittr/R/freduce.R:20
@@ -1424,37 +1424,6 @@ Execution halted
 
 ```
 
-## openair (2.1-0)
-Maintainer: David Carslaw <david.carslaw@york.ac.uk>  
-Bug reports: https://github.com/davidcarslaw/openair/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘openair-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: TheilSen
-> ### Title: Tests for trends using Theil-Sen estimates
-> ### Aliases: TheilSen
-> ### Keywords: methods
-> 
-... 18 lines ...
- 4: withVisible(function_list[[k]](value))
- 5: freduce(value, `_function_list`)
- 6: `_fseq`(`_lhs`)
- 7: eval(quote(`_fseq`(`_lhs`)), env, env)
- 8: eval(quote(`_fseq`(`_lhs`)), env, env)
- 9: withVisible(eval(quote(`_fseq`(`_lhs`)), env, env))
-10: group_by_(mydata, .dots = type) %>% do(calc.mean(., start.date))
-11: timeAverage(mydata, type = type, avg.time = avg.time, statistic = statistic,     percentile = percentile, data.thresh = data.thresh, interval = interval)
-12: TheilSen(mydata, pollutant = "nox")
-An irrecoverable exception occurred. R is aborting now ...
-Segmentation fault (core dumped)
-```
-
 ## padr (0.3.0)
 Maintainer: Edwin Thoen <edwinthoen@gmail.com>  
 Bug reports: https://github.com/EdwinTh/padr/issues
@@ -1463,7 +1432,7 @@ Bug reports: https://github.com/EdwinTh/padr/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [134s/134s]
+  Running ‘testthat.R’ [131s/128s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1481,79 +1450,6 @@ Last 13 lines of output:
   
   Error: testthat unit tests failed
   Execution halted
-```
-
-## poplite (0.99.17.3)
-Maintainer: Daniel Bottomly <bottomly@ohsu.edu>
-
-2 errors | 1 warning  | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘poplite-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: Database-class
-> ### Title: Class '"Database"'
-> ### Aliases: Database Database-class columns,Database-method dbFile
-> ###   dbFile,Database-method populate populate,Database-method schema
-> ###   schema,Database-method tables,Database-method isOpen,Database-method
-... 26 lines ...
-+  head(dbReadTable(examp.con, "team_franch"))
-+  
-+  dbDisconnect(examp.con)
-+  
-+ }
-Loading required package: Lahman
-Loading required package: RSQLite
-Error in rsqlite_connection_valid(dbObj@ptr) : 
-  external pointer is not valid
-Calls: populate ... dbIsValid -> dbIsValid -> rsqlite_connection_valid -> .Call
-Execution halted
-
-checking tests ... ERROR
-  Running ‘testthat.R’
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  4: .local(obj, ...)
-  5: isOpen(obj)
-  6: isOpen(obj)
-  7: dbIsValid(con@connection)
-  8: dbIsValid(con@connection)
-  9: rsqlite_connection_valid(dbObj@ptr) at /home/muelleki/git/R/RSQLite/R/SQLiteConnection.R:64
-  
-  testthat results ================================================================
-  OK: 115 SKIPPED: 0 FAILED: 3
-  1. Error: Database population (@test-poplite.R#452) 
-  2. Error: Querying with Database objects (@test-poplite.R#567) 
-  3. Error: sample tracking example but with direct keys between dna and samples (@test-poplite.R#801) 
-  
-  Error: testthat unit tests failed
-  Execution halted
-
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-
-The following objects are masked from ‘package:base’:
-
-    intersect, setdiff, setequal, union
-
-Loading required package: DBI
-
-... 8 lines ...
-
-    filter
-
-Error in makeSchemaFromData(dna, "dna") : 
-  ERROR: The names of the supplied data.frame need to be modified for the database see correct.df.names
-
-Error: processing vignette 'poplite.Rnw' failed with diagnostics:
- chunk 8 
-Error in rsqlite_connection_valid(dbObj@ptr) : 
-  external pointer is not valid
-Execution halted
 ```
 
 ## poppr (2.4.1)
@@ -1608,7 +1504,7 @@ checking installed package size ... NOTE
 
 checking dependencies in R code ... NOTE
 
-(R:481): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
+(R:31133): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
 ```
 
 ## rmcfs (1.2.5)
@@ -1685,75 +1581,6 @@ Missing or unexported objects:
   ‘dplyr::base_agg’ ‘dplyr::base_scalar’ ‘dplyr::base_win’
   ‘dplyr::build_sql’ ‘dplyr::sql_prefix’ ‘dplyr::sql_translator’
   ‘dplyr::sql_variant’ ‘dplyr::src_sql’ ‘dplyr::tbl_sql’
-```
-
-## RSDA (2.0)
-Maintainer: Oldemar Rodriguez <oldemar.rodriguez@ucr.ac.cr>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘RSDA-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: classic.to.sym
-> ### Title: Generate a symbolic data table
-> ### Aliases: classic.to.sym
-> ### Keywords: data symbolic table
-> 
-> ### ** Examples
-> 
-> data(ex1_db2so)
-> ex1 <- ex1_db2so
-> result <- classic.to.sym(ex1, concept=c('state', 'sex'),
-+                          variables=c('county', 'group', 'age','age'),
-+                          variables.types=c('$C', '$I', '$M', '$S'))
-Loading required package: tcltk
-Warning: no DISPLAY variable so Tk is not available
-Error in rsqlite_send_query(conn@ptr, statement) : 
-  no such table: main.dataTable
-Calls: classic.to.sym ... initialize -> initialize -> rsqlite_send_query -> .Call
-Execution halted
-```
-
-## sf (0.5-0)
-Maintainer: Edzer Pebesma <edzer.pebesma@uni-muenster.de>  
-Bug reports: https://github.com/edzer/sfr/issues/
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking tests ... ERROR
-  Running ‘cast.R’
-  Comparing ‘cast.Rout’ to ‘cast.Rout.save’ ...4c4
-< Linking to GEOS 3.5.0, GDAL 2.1.0, proj.4 4.9.2
----
-> Linking to GEOS 3.5.1, GDAL 2.1.3, proj.4 4.9.2
-  Running ‘crs.R’
-  Comparing ‘crs.Rout’ to ‘crs.Rout.save’ ... OK
-  Running ‘dist.R’
-  Comparing ‘dist.Rout’ to ‘dist.Rout.save’ ... OK
-... 8 lines ...
-  # A tibble: 1 x 2
-    `sum(A * new_dens)`          geometry
-                <units>  <simple_feature>
-  1       329962 person <MULTIPOLYGON...>
-  > 
-  > conn = system.file("gpkg/nc.gpkg", package = "sf")
-  > db = src_sqlite(conn)
-  > tbl(db, "nc.gpkg") %>% filter(AREA > 0.2) %>% collect %>% st_sf
-  Error in st_sf(.) : no simple features geometry column present
-  Calls: %>% ... _fseq -> freduce -> withVisible -> <Anonymous> -> st_sf
-  Execution halted
-
-checking installed package size ... NOTE
-  installed size is 13.0Mb
-  sub-directories of 1Mb or more:
-    doc      4.0Mb
-    libs     5.4Mb
-    sqlite   1.5Mb
 ```
 
 ## shazam (0.1.7)
@@ -1970,6 +1797,68 @@ Calls: onewayid ... summarise -> summarise.tbl_df -> summarise_impl -> .Call
 Execution halted
 ```
 
+## SWMPr (2.2.0)
+Maintainer: Marcus W. Beck <mbafs2012@gmail.com>  
+Bug reports: http://github.com/fawda123/SWMPr/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘SWMPr-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: plot_summary
+> ### Title: Plot graphical summaries of SWMP data
+> ### Aliases: plot_summary plot_summary.swmpr
+> 
+> ### ** Examples
+... 10 lines ...
+address 0x84a0, cause 'memory not mapped'
+
+Traceback:
+ 1: arrangeGrob(...)
+ 2: gridExtra::grid.arrange(arrangeGrob(p1, p2, ncol = 1), p3, arrangeGrob(p4,     p5, p6, ncol = 1, heights = c(1, 1, 0.8)), ncol = 3, widths = c(1,     0.5, 1))
+ 3: withCallingHandlers(expr, warning = function(w) invokeRestart("muffleWarning"))
+ 4: suppressWarnings(gridExtra::grid.arrange(arrangeGrob(p1, p2,     ncol = 1), p3, arrangeGrob(p4, p5, p6, ncol = 1, heights = c(1,     1, 0.8)), ncol = 3, widths = c(1, 0.5, 1)))
+ 5: plot_summary.swmpr(dat, param = "chla_n", years = c(2007, 2013))
+ 6: plot_summary(dat, param = "chla_n", years = c(2007, 2013))
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+```
+
+## tadaatoolbox (0.12.0)
+Maintainer: Lukas Burk <lukas@quantenbrot.de>  
+Bug reports: https://github.com/tadaadata/tadaatoolbox/issues
+
+0 errors | 1 warning  | 0 notes
+
+```
+checking re-building of vignette outputs ... WARNING
+Error in re-building vignettes:
+  ...
+17: fun(x, options = options)
+18: value_fun(ev$value, ev$visible)
+19: withVisible(value_fun(ev$value, ev$visible))
+20: withCallingHandlers(withVisible(value_fun(ev$value, ev$visible)),     warning = wHandler, error = eHandler, message = mHandler)
+21: handle(pv <- withCallingHandlers(withVisible(value_fun(ev$value,     ev$visible)), warning = wHandler, error = eHandler, message = mHandler))
+22: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)
+23: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &&         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))
+... 8 lines ...
+31: knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet,     encoding = encoding)
+32: rmarkdown::render(file, encoding = encoding, quiet = quiet, envir = globalenv())
+33: vweave_rmarkdown(...)
+34: engine$weave(file, quiet = quiet, encoding = enc)
+35: doTryCatch(return(expr), name, parentenv, handler)
+36: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+37: tryCatchList(expr, classes, parentenv, handlers)
+38: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    find_vignette_product(name, by = "weave", engine = engine)}, error = function(e) {    stop(gettextf("processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)), domain = NA, call. = FALSE)})
+39: buildVignettes(dir = "/home/muelleki/git/R/dplyr/revdep/checks/tadaatoolbox.Rcheck/vign_test/tadaatoolbox")
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+```
+
 ## taxizedb (0.1.0)
 Maintainer: Scott Chamberlain <myrmecocystus+r@gmail.com>  
 Bug reports: https://github.com/ropensci/taxizedb/issues
@@ -2166,7 +2055,7 @@ Error: object 'inaugCorpus' not found
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [11s/12s]
+  Running ‘testthat.R’
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   5: eval(expr, pf)
@@ -2233,6 +2122,34 @@ The following objects are masked from 'package:base':
 
 Terminated
 
+```
+
+## timekit (0.3.0)
+Maintainer: Matt Dancho <mdancho@business-science.io>  
+Bug reports: https://github.com/business-science/timekit/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking tests ... ERROR
+  Running ‘testthat.R’ [6s/11s]
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+      as_tibble
+  
+  Error in xts::xts(data, ...) : 
+    order.by requires an appropriate time-based object
+  Calls: test_check ... tk_xts -> tk_xts_ -> tk_xts_.default -> <Anonymous>
+  In addition: Warning messages:
+  1: x = 'AAPL', get = 'stock.prices': Error in new.session(curl::new_handle()): Could not establish session after 5 attempts.
+   
+  2: In tk_xts_.default(data = data, select = select, date_var = date_var,  :
+    `select` is only applicable to data.frame and tibble objects.
+  3: In tk_xts_.default(data = data, select = select, date_var = date_var,  :
+    `date_var` is only applicable to data.frame and tibble objects.
+  testthat results ================================================================
+  OK: 39 SKIPPED: 0 FAILED: 0
+  Execution halted
 ```
 
 ## timelineR (0.1.0)
@@ -2381,5 +2298,36 @@ It is good practice to register native routines and to disable symbol
 search.
 
 See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+```
+
+## WRTDStidal (1.0.1)
+Maintainer: Marcus W. Beck <mbafs2012@gmail.com>  
+Bug reports: https://github.com/fawda123/wtreg_for_estuaries/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘WRTDStidal-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: wtsplot
+> ### Title: Plot the weights for an observation
+> ### Aliases: wtsplot wtsplot.default wtsplot.tidal wtsplot.tidalmean
+> 
+> ### ** Examples
+... 9 lines ...
+ *** caught segfault ***
+address 0xffffffffffffffff, cause 'memory not mapped'
+
+Traceback:
+ 1: arrangeGrob(...)
+ 2: gridExtra::grid.arrange(p_dat_plo, gridExtra::arrangeGrob(p1,     p2, p3, p4, nrow = 2, left = grid::textGrob("Weights", rot = 90)),     bottom = "Date", heights = c(0.7, 1))
+ 3: wtsplot.default(dat_in, ...)
+ 4: wtsplot.tidal(tidfit)
+ 5: wtsplot(tidfit)
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
 ```
 

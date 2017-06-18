@@ -23,7 +23,7 @@
 |covr           |   |2.2.2      |2017-01-05 |cran (@2.2.2)                    |
 |DBI            |   |0.6-14     |2017-06-17 |Github (rstats-db/DBI@0f390df)   |
 |dbplyr         |   |1.0.0      |2017-06-09 |CRAN (R 3.4.0)                   |
-|dplyr          |   |0.7.0.9000 |2017-06-18 |local (tidyverse/dplyr@NA)       |
+|dplyr          |   |0.7.0      |2017-06-18 |local (tidyverse/dplyr@NA)       |
 |dtplyr         |   |0.0.2      |2017-04-21 |cran (@0.0.2)                    |
 |ggplot2        |   |2.2.1      |2016-12-30 |cran (@2.2.1)                    |
 |glue           |   |1.1.1.9000 |2017-06-17 |Github (tidyverse/glue@61ceb41)  |
@@ -48,7 +48,7 @@
 
 # Check results
 
-69 packages with problems
+70 packages with problems
 
 |package            |version   | errors| warnings| notes|
 |:------------------|:---------|------:|--------:|-----:|
@@ -57,7 +57,6 @@
 |backtestGraphics   |0.1.6     |      1|        0|     0|
 |bayesplot          |1.2.0     |      0|        1|     1|
 |bigrquery          |0.3.0     |      1|        0|     0|
-|bikedata           |0.0.1     |      1|        0|     1|
 |bioOED             |0.1.1     |      1|        0|     0|
 |blscrapeR          |2.1.4     |      0|        1|     0|
 |broom              |0.4.2     |      2|        0|     1|
@@ -70,12 +69,12 @@
 |emil               |2.2.6     |      1|        0|     1|
 |etl                |0.3.5     |      1|        1|     0|
 |eyetrackingR       |0.1.6     |      2|        0|     0|
-|fingertipsR        |0.1.0     |      0|        1|     0|
 |flextable          |0.2.0     |      0|        1|     0|
 |FSelectorRcpp      |0.1.3     |      1|        0|     2|
 |geoknife           |1.5.5     |      0|        1|     0|
 |geoSpectral        |0.17.3    |      1|        0|     0|
 |ggfortify          |0.4.1     |      2|        0|     1|
+|ggmap              |2.6.1     |      1|        0|     0|
 |grattan            |1.5.0.0   |      0|        1|     0|
 |gutenbergr         |0.1.2     |      1|        0|     0|
 |harrietr           |0.2.2     |      1|        0|     0|
@@ -85,6 +84,7 @@
 |implyr             |0.1.0     |      1|        0|     0|
 |incadata           |0.5.3     |      1|        0|     0|
 |infuser            |0.2.6     |      0|        2|     0|
+|lemon              |0.3.0     |      0|        1|     0|
 |lplyr              |0.1.6     |      1|        1|     0|
 |metaplot           |0.1.2     |      1|        0|     0|
 |mnis               |0.2.6     |      1|        0|     0|
@@ -93,7 +93,6 @@
 |myTAI              |0.5.0     |      1|        0|     1|
 |nandb              |0.2.0     |      1|        0|     0|
 |NFP                |0.99.2    |      0|        1|     2|
-|nzelect            |0.3.3     |      0|        1|     0|
 |officer            |0.1.4     |      2|        1|     0|
 |padr               |0.3.0     |      1|        0|     0|
 |poppr              |2.4.1     |      0|        1|     0|
@@ -108,19 +107,21 @@
 |ss3sim             |0.9.5     |      0|        1|     0|
 |stplanr            |0.1.8     |      1|        0|     0|
 |SWMPr              |2.2.0     |      1|        0|     0|
+|tadaatoolbox       |0.12.0    |      0|        1|     0|
 |taxizedb           |0.1.0     |      1|        0|     0|
 |texmexseq          |0.3       |      1|        0|     1|
 |textmining         |0.0.1     |      0|        1|     0|
 |tidyjson           |0.2.2     |      1|        0|     0|
-|tidyquant          |0.5.1     |      2|        1|     1|
+|tidyquant          |0.5.1     |      2|        0|     1|
 |tidytext           |0.1.2     |      2|        1|     0|
 |tigger             |0.2.9.999 |      0|        1|     0|
 |timekit            |0.3.0     |      1|        0|     0|
+|timelineR          |0.1.0     |      1|        0|     0|
 |treeplyr           |0.1.2     |      1|        0|     1|
-|tRophicPosition    |0.7.0     |      0|        1|     0|
 |tropr              |0.1.2     |      0|        1|     0|
 |unpivotr           |0.1.1     |      1|        0|     0|
 |wrswoR             |1.0-1     |      0|        1|     1|
+|WRTDStidal         |1.0.1     |      1|        0|     0|
 
 ## ameco (0.2.7)
 Maintainer: Eric Persson <expersso5@gmail.com>  
@@ -246,40 +247,6 @@ Installation failed.
 See ‘/home/muelleki/git/R/dplyr/revdep/checks/bigrquery.Rcheck/00install.out’ for details.
 ```
 
-## bikedata (0.0.1)
-Maintainer: Mark Padgham <mark.padgham@email.com>  
-Bug reports: https://github.com/mpadge/bikedata/issues
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking tests ... ERROR
-  Running ‘testthat.R’ [17s/34s]
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  1. Failure: write and store data (@test-store-data.R#38) -----------------------
-  bike_write_test_data(data_dir = tempdir()) produced messages.
-  
-  
-  2. Failure: write and store data (@test-store-data.R#39) -----------------------
-  n <- store_bikedata(data_dir = tempdir(), bikedb = bikedb, quiet = TRUE) produced messages.
-  
-  
-  testthat results ================================================================
-  OK: 147 SKIPPED: 0 FAILED: 2
-  1. Failure: write and store data (@test-store-data.R#38) 
-  2. Failure: write and store data (@test-store-data.R#39) 
-  
-  Error: testthat unit tests failed
-  Execution halted
-
-checking installed package size ... NOTE
-  installed size is  8.8Mb
-  sub-directories of 1Mb or more:
-    doc    2.6Mb
-    libs   5.5Mb
-```
-
 ## bioOED (0.1.1)
 Maintainer: Alberto Garre <garre.alberto@gmail.com>
 
@@ -304,7 +271,7 @@ checking re-building of vignette outputs ... WARNING
 Error in re-building vignettes:
   ...
 pandoc: Could not fetch https://www.datascienceriot.com/wp-content/uploads/2017/01/bus_fl_map.png
-FailedConnectionException2 "www.datascienceriot.com" 443 True getAddrInfo: does not exist (Name or service not known)
+TlsExceptionHostPort (HandshakeFailed (Error_Protocol ("certificate rejected: [NameMismatch \"www.datascienceriot.com\"]",True,CertificateUnknown))) "www.datascienceriot.com" 443
 Error: processing vignette 'Mapping_BLS_Data.Rmd' failed with diagnostics:
 pandoc document conversion failed with error 67
 Execution halted
@@ -323,23 +290,23 @@ Running examples in ‘broom-Ex.R’ failed
 The error most likely occurred in:
 
 > base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: gmm_tidiers
-> ### Title: Tidying methods for generalized method of moments "gmm" objects
-> ### Aliases: glance.gmm gmm_tidiers tidy.gmm
+> ### Name: acf_tidiers
+> ### Title: Tidying method for the acf function
+> ### Aliases: acf_tidiers tidy.acf
 > 
 > ### ** Examples
-... 58 lines ...
-+     mutate(variable = reorder(variable, estimate)) %>%
-+     ggplot(aes(estimate, variable)) +
-+     geom_point() +
-+     geom_errorbarh(aes(xmin = conf.low, xmax = conf.high)) +
-+     facet_wrap(~ term) +
-+     geom_vline(xintercept = 0, color = "red", lty = 2)
-+ }
-Error in `colnames<-`(`*tmp*`, value = c("conf.low", "conf.high")) : 
-  attempt to set 'colnames' on an object with less than two dimensions
-Calls: tidy -> tidy.gmm -> process_lm -> colnames<-
-Execution halted
+... 97 lines ...
+ 4: f(..., self = self)
+ 5: self$position$compute_layer(data, params, layout)
+ 6: f(..., self = self)
+ 7: l$compute_position(d, layout)
+ 8: f(l = layers[[i]], d = data[[i]])
+ 9: by_layer(function(l, d) l$compute_position(d, layout))
+10: ggplot_build(x)
+11: print.ggplot(x)
+12: function (x, ...) UseMethod("print")(x)
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
 
 checking tests ... ERROR
   Running ‘test-all.R’
@@ -410,7 +377,7 @@ Bug reports: https://github.com/wahani/dat/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [46s/45s]
+  Running ‘testthat.R’ [47s/46s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -493,7 +460,7 @@ Bug reports: https://github.com/paulhendricks/describer/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [120s/120s]
+  Running ‘testthat.R’ [122s/121s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -547,12 +514,12 @@ The error most likely occurred in:
 > 
 > ### ** Examples
 ... 6 lines ...
-18 Jun 13:09    Test set test_fraction 1 of 3 (0.7)
-18 Jun 13:09      Evaluating modeling performance...
-18 Jun 13:09    Test set test_fraction 2 of 3 (0.5)
-18 Jun 13:09      Evaluating modeling performance...
-18 Jun 13:09    Test set test_fraction 3 of 3 (0.3)
-18 Jun 13:09      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 1 of 3 (0.7)
+18 Jun 19:58      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 2 of 3 (0.5)
+18 Jun 19:58      Evaluating modeling performance...
+18 Jun 19:58    Test set test_fraction 3 of 3 (0.3)
+18 Jun 19:58      Evaluating modeling performance...
 > plot(lc)
 Error in select.list(., test_fraction = TRUE, fold = TRUE, method = TRUE,  : 
   unused arguments (test_fraction = TRUE, fold = TRUE, method = TRUE, performance = "error")
@@ -583,9 +550,9 @@ Last 13 lines of output:
   downloaded 10 KB
   
   trying URL 'http://www.nytimes.com'
-  Content type 'text/html; charset=utf-8' length 227394 bytes (222 KB)
+  Content type 'text/html; charset=utf-8' length 229901 bytes (224 KB)
   ==================================================
-  downloaded 222 KB
+  downloaded 224 KB
   
   testthat results ================================================================
   OK: 15 SKIPPED: 0 FAILED: 3
@@ -653,20 +620,6 @@ Last 13 lines of output:
   testthat results ================================================================
   OK: 38 SKIPPED: 0 FAILED: 0
   Execution halted
-```
-
-## fingertipsR (0.1.0)
-Maintainer: Sebastian Fox <sebastian.fox@phe.gov.uk>  
-Bug reports: https://github.com/PublicHealthEngland/fingertipsR/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-Terminated
-
 ```
 
 ## flextable (0.2.0)
@@ -798,10 +751,10 @@ Error: `x` must be a vector, not a ts object, do you want `stats::lag()`?
 Execution halted
 
 checking tests ... ERROR
-  Running ‘test-all.R’ [58s/58s]
+  Running ‘test-all.R’ [61s/59s]
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  8: eval_bare(dot$expr, dot$env) at /tmp/Rtmp39U5OP/devtoolsaab5512799e/rlang/R/dots.R:91
+  8: eval_bare(dot$expr, dot$env) at /tmp/RtmpIkK7Ul/devtools41257f8be71a/rlang/R/dots.R:91
   9: lapply(seq(1:lags), .lag)
   10: FUN(X[[i]], ...)
   11: as.vector(lag(ts, k))
@@ -821,6 +774,33 @@ checking installed package size ... NOTE
   installed size is  5.7Mb
   sub-directories of 1Mb or more:
     doc   5.0Mb
+```
+
+## ggmap (2.6.1)
+Maintainer: David Kahle <david.kahle@gmail.com>  
+Bug reports: https://github.com/dkahle/ggmap/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘ggmap-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: get_map
+> ### Title: Grab a map.
+> ### Aliases: get_map
+> 
+> ### ** Examples
+> 
+> map <- get_map()
+Warning in download.file(url, destfile = tmp, quiet = !messaging, mode = "wb") :
+  cannot open URL 'http://maps.googleapis.com/maps/api/staticmap?center=29.763284,-95.363271&zoom=10&size=640x640&scale=2&maptype=terrain&language=en-EN&sensor=false': HTTP status was '403 Forbidden'
+Error in download.file(url, destfile = tmp, quiet = !messaging, mode = "wb") : 
+  cannot open URL 'http://maps.googleapis.com/maps/api/staticmap?center=29.763284,-95.363271&zoom=10&size=640x640&scale=2&maptype=terrain&language=en-EN&sensor=false'
+Calls: get_map -> get_googlemap -> download.file
+Execution halted
 ```
 
 ## grattan (1.5.0.0)
@@ -863,7 +843,7 @@ Bug reports: http://github.com/ropenscilabs/gutenbergr/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [6s/18s]
+  Running ‘testthat.R’ [6s/13s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   > library(testthat)
@@ -935,7 +915,7 @@ Bug reports: https://github.com/hughjonesd/huxtable/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [11s/12s]
+  Running ‘testthat.R’ [11s/11s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
          message = handle_message)) at /tmp/Rtmpf6YF8j/devtools1eed5a0addc9/testthat/R/evaluate-promise.R:42
@@ -997,8 +977,8 @@ Last 13 lines of output:
   dplyr::filter(testdata, persnr == 198505043334) inherits from `tbl_df/tbl/data.frame` not `incadata`.
   
   
-  Using tempfile: /tmp/RtmpyLll6K/ex_data540f3cc7ac8f.csv2
-  [1] "ex_data540f3cc7ac8f.csv2"
+  Using tempfile: /tmp/RtmpLL1f6m/ex_data86b09ab0a7c.csv2
+  [1] "ex_data86b09ab0a7c.csv2"
   file size: 1103 kb
   testthat results ================================================================
   OK: 40 SKIPPED: 0 FAILED: 1
@@ -1028,6 +1008,23 @@ Error in re-building vignettes:
 Quitting from lines 157-158 (getting_started.Rmd) 
 Error: processing vignette 'getting_started.Rmd' failed with diagnostics:
 'build_sql' is not an exported object from 'namespace:dplyr'
+Execution halted
+
+```
+
+## lemon (0.3.0)
+Maintainer: Stefan McKinnon Edwards <sme@iysik.com>  
+Bug reports: https://github.com/stefanedwards/lemon/issues
+
+0 errors | 1 warning  | 0 notes
+
+```
+checking re-building of vignette outputs ... WARNING
+Error in re-building vignettes:
+  ...
+Quitting from lines 186-195 (legends.Rmd) 
+Error: processing vignette 'legends.Rmd' failed with diagnostics:
+value of 'SET_ATTRIB' must be a pairlist or NULL, not a 'integer'
 Execution halted
 
 ```
@@ -1281,7 +1278,7 @@ Bug reports: https://github.com/HajkD/myTAI/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/52s]
+  Running ‘testthat.R’ [52s/53s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   
@@ -1360,19 +1357,6 @@ checking installed package size ... NOTE
     data   7.5Mb
 ```
 
-## nzelect (0.3.3)
-Maintainer: Peter Ellis <peter.ellis2013nz@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-Terminated
-
-```
-
 ## officer (0.1.4)
 Maintainer: David Gohel <david.gohel@ardata.fr>  
 Bug reports: https://github.com/davidgohel/officer/issues
@@ -1400,7 +1384,7 @@ Error: file.exists(src) is not TRUE
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/52s]
+  Running ‘testthat.R’ [50s/50s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   8: function_list[[k]](value) at /tmp/RtmpT6Czo8/R.INSTALL13c163d710cb/magrittr/R/freduce.R:20
@@ -1448,7 +1432,7 @@ Bug reports: https://github.com/EdwinTh/padr/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [127s/124s]
+  Running ‘testthat.R’ [131s/128s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1520,7 +1504,7 @@ checking installed package size ... NOTE
 
 checking dependencies in R code ... NOTE
 
-(R:18950): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
+(R:31133): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
 ```
 
 ## rmcfs (1.2.5)
@@ -1831,7 +1815,7 @@ The error most likely occurred in:
 > 
 > ### ** Examples
 ... 10 lines ...
-address 0x69f0, cause 'memory not mapped'
+address 0x84a0, cause 'memory not mapped'
 
 Traceback:
  1: arrangeGrob(...)
@@ -1840,6 +1824,37 @@ Traceback:
  4: suppressWarnings(gridExtra::grid.arrange(arrangeGrob(p1, p2,     ncol = 1), p3, arrangeGrob(p4, p5, p6, ncol = 1, heights = c(1,     1, 0.8)), ncol = 3, widths = c(1, 0.5, 1)))
  5: plot_summary.swmpr(dat, param = "chla_n", years = c(2007, 2013))
  6: plot_summary(dat, param = "chla_n", years = c(2007, 2013))
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+```
+
+## tadaatoolbox (0.12.0)
+Maintainer: Lukas Burk <lukas@quantenbrot.de>  
+Bug reports: https://github.com/tadaadata/tadaatoolbox/issues
+
+0 errors | 1 warning  | 0 notes
+
+```
+checking re-building of vignette outputs ... WARNING
+Error in re-building vignettes:
+  ...
+17: fun(x, options = options)
+18: value_fun(ev$value, ev$visible)
+19: withVisible(value_fun(ev$value, ev$visible))
+20: withCallingHandlers(withVisible(value_fun(ev$value, ev$visible)),     warning = wHandler, error = eHandler, message = mHandler)
+21: handle(pv <- withCallingHandlers(withVisible(value_fun(ev$value,     ev$visible)), warning = wHandler, error = eHandler, message = mHandler))
+22: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)
+23: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &&         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))
+... 8 lines ...
+31: knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet,     encoding = encoding)
+32: rmarkdown::render(file, encoding = encoding, quiet = quiet, envir = globalenv())
+33: vweave_rmarkdown(...)
+34: engine$weave(file, quiet = quiet, encoding = enc)
+35: doTryCatch(return(expr), name, parentenv, handler)
+36: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+37: tryCatchList(expr, classes, parentenv, handlers)
+38: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    find_vignette_product(name, by = "weave", engine = engine)}, error = function(e) {    stop(gettextf("processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)), domain = NA, call. = FALSE)})
+39: buildVignettes(dir = "/home/muelleki/git/R/dplyr/revdep/checks/tadaatoolbox.Rcheck/vign_test/tadaatoolbox")
 An irrecoverable exception occurred. R is aborting now ...
 Segmentation fault (core dumped)
 ```
@@ -1955,7 +1970,7 @@ Execution halted
 Maintainer: Matt Dancho <mdancho@business-science.io>  
 Bug reports: https://github.com/business-science/tidyquant/issues
 
-2 errors | 1 warning  | 1 note 
+2 errors | 0 warnings | 1 note 
 
 ```
 checking examples ... ERROR
@@ -2000,29 +2015,6 @@ Last 13 lines of output:
   testthat results ================================================================
   OK: 0 SKIPPED: 0 FAILED: 0
   Execution halted
-
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-    as_tibble
-
-The following object is masked from 'package:tibble':
-
-    as_tibble
-
-Getting data...
-... 8 lines ...
-Warning: x = 'AAPL', get = 'splits': Error in new.session(curl::new_handle()): Could not establish session after 5 attempts.
-
-additional arguments ignored in warning()
-Warning: x = 'AAPL', get = 'stock.prices': Error in new.session(curl::new_handle()): Could not establish session after 5 attempts.
-
-Warning: x = 'AAPL', get = 'key.ratios': Error in value[[3L]](cond): object 'key_ratios' not found
-
-Quitting from lines 176-179 (TQ01-core-functions-in-tidyquant.Rmd) 
-Error: processing vignette 'TQ01-core-functions-in-tidyquant.Rmd' failed with diagnostics:
-no applicable method for 'filter_' applied to an object of class "logical"
-Execution halted
 
 checking installed package size ... NOTE
   installed size is  5.2Mb
@@ -2128,10 +2120,7 @@ The following objects are masked from 'package:base':
 
     intersect, setdiff, setequal, union
 
-
- *** caught segfault ***
-address 0x1c4, cause 'memory not mapped'
-Segmentation fault (core dumped)
+Terminated
 
 ```
 
@@ -2143,7 +2132,7 @@ Bug reports: https://github.com/business-science/timekit/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [6s/12s]
+  Running ‘testthat.R’ [6s/11s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
       as_tibble
@@ -2161,6 +2150,33 @@ Last 13 lines of output:
   testthat results ================================================================
   OK: 39 SKIPPED: 0 FAILED: 0
   Execution halted
+```
+
+## timelineR (0.1.0)
+Maintainer: Mohsin Vindhani <mohsin@systeminsights.com>
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking tests ... ERROR
+  Running ‘testthat.R’
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  20: eval(exprs, env)
+  21: source_file(path, new.env(parent = env), chdir = TRUE)
+  22: force(code)
+  23: with_reporter(reporter = reporter, start_end_reporter = start_end_reporter,     {        lister$start_file(basename(path))        source_file(path, new.env(parent = env), chdir = TRUE)        end_context()    })
+  24: FUN(X[[i]], ...)
+  25: lapply(paths, test_file, env = env, reporter = current_reporter,     start_end_reporter = FALSE, load_helpers = FALSE)
+  26: force(code)
+  27: with_reporter(reporter = current_reporter, results <- lapply(paths,     test_file, env = env, reporter = current_reporter, start_end_reporter = FALSE,     load_helpers = FALSE))
+  28: test_files(paths, reporter = reporter, env = env, ...)
+  29: test_dir(test_path, reporter = reporter, env = env, filter = filter,     ...)
+  30: with_top_env(env, {    test_dir(test_path, reporter = reporter, env = env, filter = filter,         ...)})
+  31: run_tests(package, test_path, filter, reporter, ...)
+  32: test_check("timelineR")
+  An irrecoverable exception occurred. R is aborting now ...
+  Segmentation fault (core dumped)
 ```
 
 ## treeplyr (0.1.2)
@@ -2198,37 +2214,6 @@ It is good practice to register native routines and to disable symbol
 search.
 
 See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
-```
-
-## tRophicPosition (0.7.0)
-Maintainer: Claudio Quezada-Romegialli <clquezada@harrodlab.net>  
-Bug reports: https://groups.google.com/d/forum/trophicposition-support
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-14: eval(expr, envir, enclos)
-15: withVisible(eval(expr, envir, enclos))
-16: withCallingHandlers(withVisible(eval(expr, envir, enclos)), warning = wHandler,     error = eHandler, message = mHandler)
-17: handle(ev <- withCallingHandlers(withVisible(eval(expr, envir,     enclos)), warning = wHandler, error = eHandler, message = mHandler))
-18: timing_fn(handle(ev <- withCallingHandlers(withVisible(eval(expr,     envir, enclos)), warning = wHandler, error = eHandler, message = mHandler)))
-19: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)
-20: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &&         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))
-... 8 lines ...
-28: knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet,     encoding = encoding)
-29: rmarkdown::render(file, encoding = encoding, quiet = quiet, envir = globalenv())
-30: vweave_rmarkdown(...)
-31: engine$weave(file, quiet = quiet, encoding = enc)
-32: doTryCatch(return(expr), name, parentenv, handler)
-33: tryCatchOne(expr, names, parentenv, handlers[[1L]])
-34: tryCatchList(expr, classes, parentenv, handlers)
-35: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    find_vignette_product(name, by = "weave", engine = engine)}, error = function(e) {    stop(gettextf("processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)), domain = NA, call. = FALSE)})
-36: buildVignettes(dir = "/home/muelleki/git/R/dplyr/revdep/checks/tRophicPosition.Rcheck/vign_test/tRophicPosition")
-An irrecoverable exception occurred. R is aborting now ...
-Segmentation fault (core dumped)
 ```
 
 ## tropr (0.1.2)
@@ -2313,5 +2298,36 @@ It is good practice to register native routines and to disable symbol
 search.
 
 See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+```
+
+## WRTDStidal (1.0.1)
+Maintainer: Marcus W. Beck <mbafs2012@gmail.com>  
+Bug reports: https://github.com/fawda123/wtreg_for_estuaries/issues
+
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘WRTDStidal-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: wtsplot
+> ### Title: Plot the weights for an observation
+> ### Aliases: wtsplot wtsplot.default wtsplot.tidal wtsplot.tidalmean
+> 
+> ### ** Examples
+... 9 lines ...
+ *** caught segfault ***
+address 0xffffffffffffffff, cause 'memory not mapped'
+
+Traceback:
+ 1: arrangeGrob(...)
+ 2: gridExtra::grid.arrange(p_dat_plo, gridExtra::arrangeGrob(p1,     p2, p3, p4, nrow = 2, left = grid::textGrob("Weights", rot = 90)),     bottom = "Date", heights = c(0.7, 1))
+ 3: wtsplot.default(dat_in, ...)
+ 4: wtsplot.tidal(tidfit)
+ 5: wtsplot(tidfit)
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
 ```
 
