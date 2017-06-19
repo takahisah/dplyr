@@ -10,7 +10,7 @@
 |language |(EN)                         |
 |collate  |en_US.UTF-8                  |
 |tz       |Zulu                         |
-|date     |2017-06-18                   |
+|date     |2017-06-19                   |
 
 ## Packages
 
@@ -21,7 +21,7 @@
 |bindrcpp       |   |0.2        |2017-06-17 |Github (krlmlr/bindrcpp@2d09112) |
 |bit64          |   |0.9-7      |2017-05-08 |cran (@0.9-7)                    |
 |covr           |   |2.2.2      |2017-01-05 |cran (@2.2.2)                    |
-|DBI            |   |0.6-14     |2017-06-17 |Github (rstats-db/DBI@0f390df)   |
+|DBI            |   |0.7        |2017-06-18 |Github (rstats-db/DBI@f336c87)   |
 |dbplyr         |   |1.0.0      |2017-06-09 |CRAN (R 3.4.0)                   |
 |dplyr          |   |0.7.0.9000 |2017-06-18 |local (tidyverse/dplyr@NA)       |
 |dtplyr         |   |0.0.2      |2017-04-21 |cran (@0.0.2)                    |
@@ -48,7 +48,7 @@
 
 # Check results
 
-619 packages
+618 packages
 
 |package                |version   | errors| warnings| notes|
 |:----------------------|:---------|------:|--------:|-----:|
@@ -215,7 +215,6 @@
 |FedData                |2.4.5     |      0|        0|     0|
 |feedeR                 |0.0.7     |      0|        0|     0|
 |fiftystater            |1.0.1     |      0|        0|     0|
-|fingertipsR            |0.1.0     |      0|        1|     0|
 |finreportr             |1.0.1     |      0|        0|     0|
 |fivethirtyeight        |0.2.0     |      0|        0|     1|
 |flextable              |0.2.0     |      0|        1|     0|
@@ -409,13 +408,12 @@
 |nscprepr               |0.1.1     |      0|        0|     0|
 |nullabor               |0.3.1     |      0|        0|     1|
 |nycflights13           |0.2.2     |      0|        0|     1|
-|nzelect                |0.3.3     |      0|        1|     0|
 |observer               |0.1.2     |      0|        0|     1|
 |officer                |0.1.4     |      2|        1|     0|
 |olsrr                  |0.2.0     |      0|        0|     0|
 |ompr                   |0.6.0     |      0|        0|     0|
 |openadds               |0.2.0     |      0|        0|     0|
-|openair                |2.1-0     |      0|        0|     0|
+|openair                |2.1-0     |      1|        0|     0|
 |opencage               |0.1.2     |      0|        0|     0|
 |openEBGM               |0.1.0     |      0|        0|     0|
 |packagetrackr          |0.1.1     |      0|        0|     0|
@@ -453,6 +451,7 @@
 |prcr                   |0.1.4     |      0|        0|     0|
 |prepdat                |1.0.8     |      0|        0|     0|
 |pRF                    |1.2       |      0|        0|     0|
+|processmonitR          |0.1.0     |      0|        0|     1|
 |prophet                |0.1.1     |      0|        0|     1|
 |ptstem                 |0.0.3     |      0|        0|     1|
 |purrrlyr               |0.0.2     |      0|        0|     1|
@@ -500,7 +499,7 @@
 |rfishbase              |2.1.2     |      0|        0|     0|
 |rgho                   |1.0.1     |      0|        0|     0|
 |rivr                   |1.2       |      0|        0|     1|
-|RmarineHeatWaves       |0.15.6    |      0|        0|     0|
+|RmarineHeatWaves       |0.15.7    |      0|        0|     0|
 |rmcfs                  |1.2.5     |      0|        1|     2|
 |rmdHelpers             |1.2       |      0|        0|     0|
 |RNeXML                 |2.0.7     |      0|        0|     1|
@@ -610,7 +609,7 @@
 |tibble                 |1.3.3     |      0|        0|     0|
 |tictactoe              |0.2.2     |      0|        0|     0|
 |tidyjson               |0.2.2     |      1|        0|     0|
-|tidyquant              |0.5.1     |      2|        1|     1|
+|tidyquant              |0.5.1     |      2|        0|     1|
 |tidyr                  |0.6.3     |      0|        0|     0|
 |tidyRSS                |1.2.1     |      0|        0|     0|
 |tidytext               |0.1.2     |      2|        1|     0|
@@ -628,7 +627,7 @@
 |treeplyr               |0.1.2     |      1|        0|     1|
 |trelliscope            |0.9.7     |      0|        0|     0|
 |trelloR                |0.1.0     |      0|        0|     0|
-|tRophicPosition        |0.7.0     |      0|        1|     0|
+|tRophicPosition        |0.7.0     |      0|        0|     0|
 |tropr                  |0.1.2     |      0|        1|     0|
 |turfR                  |0.8-7     |      0|        0|     1|
 |uaparserjs             |0.1.0     |      0|        0|     0|
@@ -1020,7 +1019,7 @@ Bug reports: https://github.com/mpadge/bikedata/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [17s/34s]
+  Running ‘testthat.R’ [18s/34s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   1. Failure: write and store data (@test-store-data.R#38) -----------------------
@@ -1111,7 +1110,7 @@ checking re-building of vignette outputs ... WARNING
 Error in re-building vignettes:
   ...
 pandoc: Could not fetch https://www.datascienceriot.com/wp-content/uploads/2017/01/bus_fl_map.png
-FailedConnectionException2 "www.datascienceriot.com" 443 True getAddrInfo: does not exist (Name or service not known)
+TlsExceptionHostPort (HandshakeFailed (Error_Protocol ("certificate rejected: [NameMismatch \"www.datascienceriot.com\"]",True,CertificateUnknown))) "www.datascienceriot.com" 443
 Error: processing vignette 'Mapping_BLS_Data.Rmd' failed with diagnostics:
 pandoc document conversion failed with error 67
 Execution halted
@@ -1601,7 +1600,7 @@ Bug reports: https://github.com/wahani/dat/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [46s/45s]
+  Running ‘testthat.R’ [47s/46s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1729,7 +1728,7 @@ Bug reports: https://github.com/paulhendricks/describer/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [120s/120s]
+  Running ‘testthat.R’ [120s/119s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1988,12 +1987,12 @@ The error most likely occurred in:
 > 
 > ### ** Examples
 ... 6 lines ...
-18 Jun 13:09    Test set test_fraction 1 of 3 (0.7)
-18 Jun 13:09      Evaluating modeling performance...
-18 Jun 13:09    Test set test_fraction 2 of 3 (0.5)
-18 Jun 13:09      Evaluating modeling performance...
-18 Jun 13:09    Test set test_fraction 3 of 3 (0.3)
-18 Jun 13:09      Evaluating modeling performance...
+18 Jun 22:36    Test set test_fraction 1 of 3 (0.7)
+18 Jun 22:36      Evaluating modeling performance...
+18 Jun 22:36    Test set test_fraction 2 of 3 (0.5)
+18 Jun 22:36      Evaluating modeling performance...
+18 Jun 22:36    Test set test_fraction 3 of 3 (0.3)
+18 Jun 22:36      Evaluating modeling performance...
 > plot(lc)
 Error in select.list(., test_fraction = TRUE, fold = TRUE, method = TRUE,  : 
   unused arguments (test_fraction = TRUE, fold = TRUE, method = TRUE, performance = "error")
@@ -2067,12 +2066,12 @@ checking tests ... ERROR
   Running ‘testthat.R’
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
-  downloaded 10 KB
+  downloaded 11 KB
   
   trying URL 'http://www.nytimes.com'
-  Content type 'text/html; charset=utf-8' length 227394 bytes (222 KB)
+  Content type 'text/html; charset=utf-8' length 513987 bytes (501 KB)
   ==================================================
-  downloaded 222 KB
+  downloaded 501 KB
   
   testthat results ================================================================
   OK: 15 SKIPPED: 0 FAILED: 3
@@ -2173,7 +2172,7 @@ Calls: make_time_cluster_data ... make_time_cluster_data.time_sequence_data -> d
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [112m/110m]
+  Running ‘testthat.R’ [110m/108m]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   Computing t.test for each time bin...
@@ -2250,20 +2249,6 @@ Maintainer: William Murphy <william.murphy.rd@gmail.com>
 Bug reports: https://github.com/wmurphyrd/fiftystater/issues
 
 0 errors | 0 warnings | 0 notes
-
-## fingertipsR (0.1.0)
-Maintainer: Sebastian Fox <sebastian.fox@phe.gov.uk>  
-Bug reports: https://github.com/PublicHealthEngland/fingertipsR/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-Terminated
-
-```
 
 ## finreportr (1.0.1)
 Maintainer: Seward Lee <sewardlee337@gmail.com>
@@ -2676,10 +2661,10 @@ Error: `x` must be a vector, not a ts object, do you want `stats::lag()`?
 Execution halted
 
 checking tests ... ERROR
-  Running ‘test-all.R’ [58s/58s]
+  Running ‘test-all.R’ [60s/58s]
 Running the tests in ‘tests/test-all.R’ failed.
 Last 13 lines of output:
-  8: eval_bare(dot$expr, dot$env) at /tmp/Rtmp39U5OP/devtoolsaab5512799e/rlang/R/dots.R:91
+  8: eval_bare(dot$expr, dot$env) at /tmp/RtmpIkK7Ul/devtools41257f8be71a/rlang/R/dots.R:91
   9: lapply(seq(1:lags), .lag)
   10: FUN(X[[i]], ...)
   11: as.vector(lag(ts, k))
@@ -3051,7 +3036,7 @@ Bug reports: https://github.com/hughjonesd/huxtable/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [11s/12s]
+  Running ‘testthat.R’ [12s/11s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
          message = handle_message)) at /tmp/Rtmpf6YF8j/devtools1eed5a0addc9/testthat/R/evaluate-promise.R:42
@@ -3184,8 +3169,8 @@ Last 13 lines of output:
   dplyr::filter(testdata, persnr == 198505043334) inherits from `tbl_df/tbl/data.frame` not `incadata`.
   
   
-  Using tempfile: /tmp/RtmpyLll6K/ex_data540f3cc7ac8f.csv2
-  [1] "ex_data540f3cc7ac8f.csv2"
+  Using tempfile: /tmp/RtmpnJwAZP/ex_datab3073b7bcef2.csv2
+  [1] "ex_datab3073b7bcef2.csv2"
   file size: 1103 kb
   testthat results ================================================================
   OK: 40 SKIPPED: 0 FAILED: 1
@@ -3979,7 +3964,7 @@ Bug reports: https://github.com/HajkD/myTAI/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/52s]
+  Running ‘testthat.R’ [52s/53s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   
@@ -4204,19 +4189,6 @@ checking installed package size ... NOTE
     data   6.9Mb
 ```
 
-## nzelect (0.3.3)
-Maintainer: Peter Ellis <peter.ellis2013nz@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-Terminated
-
-```
-
 ## observer (0.1.2)
 Maintainer: Paul Poncet <paulponcet@yahoo.fr>  
 Bug reports: https://github.com/paulponcet/observer/issues
@@ -4255,7 +4227,7 @@ Error: file.exists(src) is not TRUE
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’ [53s/52s]
+  Running ‘testthat.R’ [51s/50s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   8: function_list[[k]](value) at /tmp/RtmpT6Czo8/R.INSTALL13c163d710cb/magrittr/R/freduce.R:20
@@ -4317,7 +4289,32 @@ Bug reports: https://github.com/sckott/openadds/issues
 Maintainer: David Carslaw <david.carslaw@york.ac.uk>  
 Bug reports: https://github.com/davidcarslaw/openair/issues
 
-0 errors | 0 warnings | 0 notes
+1 error  | 0 warnings | 0 notes
+
+```
+checking examples ... ERROR
+Running examples in ‘openair-Ex.R’ failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: TheilSen
+> ### Title: Tests for trends using Theil-Sen estimates
+> ### Aliases: TheilSen
+> ### Keywords: methods
+> 
+... 18 lines ...
+ 4: withVisible(function_list[[k]](value))
+ 5: freduce(value, `_function_list`)
+ 6: `_fseq`(`_lhs`)
+ 7: eval(quote(`_fseq`(`_lhs`)), env, env)
+ 8: eval(quote(`_fseq`(`_lhs`)), env, env)
+ 9: withVisible(eval(quote(`_fseq`(`_lhs`)), env, env))
+10: group_by_(mydata, .dots = type) %>% do(calc.mean(., start.date))
+11: timeAverage(mydata, type = type, avg.time = avg.time, statistic = statistic,     percentile = percentile, data.thresh = data.thresh, interval = interval)
+12: TheilSen(mydata, pollutant = "nox")
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+```
 
 ## opencage (0.1.2)
 Maintainer: Maëlle Salmon <maelle.salmon@yahoo.se>  
@@ -4349,7 +4346,7 @@ Bug reports: https://github.com/EdwinTh/padr/issues
 
 ```
 checking tests ... ERROR
-  Running ‘testthat.R’ [127s/124s]
+  Running ‘testthat.R’ [129s/126s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4595,6 +4592,34 @@ Maintainer: Ankur Chakravarthy <ankur.chakravarthy.10@ucl.ac.uk>
 
 0 errors | 0 warnings | 0 notes
 
+## processmonitR (0.1.0)
+Maintainer: gert.janssenswillen@uhasselt.be <gert.janssenswillen@uhasselt.be>
+
+0 errors | 0 warnings | 1 note 
+
+```
+checking R code for possible problems ... NOTE
+
+ *** caught segfault ***
+address (nil), cause 'unknown'
+
+Traceback:
+ 1: collectUsageFun(name, formals(fun), body(fun), w)
+ 2: collectUsage(fun, name = name, warn = report, suppressLocal = suppressLocal,     suppressParamAssigns = suppressParamAssigns, suppressParamUnused = suppressParamUnused,     suppressFundefMismatch = suppressFundefMismatch, suppressLocalUnused = suppressLocalUnused,     suppressNoLocalFun = suppressNoLocalFun, skipWith = skipWith,     enterGlobal = checkUsageEnterGlobal, enterLocal = checkUsageEnterLocal,     startCollectLocals = checkUsageStartLocals, finishCollectLocals = checkUsageFinishLocals,     suppressUndefined = suppressUndefined, suppressPartialMatchArgs = suppressPartialMatchArgs)
+ 3: doTryCatch(return(expr), name, parentenv, handler)
+ 4: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 5: tryCatchList(expr, classes, parentenv, handlers)
+ 6: tryCatch(collectUsage(fun, name = name, warn = report, suppressLocal = suppressLocal,     suppressParamAssigns = suppressParamAssigns, suppressParamUnused = suppressParamUnused,     suppressFundefMismatch = suppressFundefMismatch, suppressLocalUnused = suppressLocalUnused,     suppressNoLocalFun = suppressNoLocalFun, skipWith = skipWith,     enterGlobal = checkUsageEnterGlobal, enterLocal = checkUsageEnterLocal,     startCollectLocals = checkUsageStartLocals, finishCollectLocals = checkUsageFinishLocals,     suppressUndefined = suppressUndefined, suppressPartialMatchArgs = suppressPartialMatchArgs),     error = function(e) {        report(paste0(name, ": Error while checking: ", conditionMessage(e),             "\n"))    })
+ 7: checkUsage(v, name = n, ...)
+ 8: (function (env, ...) {    for (n in ls(env, all.names = TRUE)) {        v <- get(n, envir = env)        if (typeof(v) == "closure")             checkUsage(v, name = n, ...)    }})(<environment>, report = function (x) out <<- c(out, x), skipWith = TRUE, suppressPartialMatchArgs = FALSE,     suppressLocalUnused = TRUE)
+ 9: do.call(codetools::checkUsageEnv, args)
+10: withCallingHandlers(expr, message = function(c) invokeRestart("muffleMessage"))
+11: suppressMessages(do.call(codetools::checkUsageEnv, args))
+12: tools:::.check_code_usage_in_package(package = "processmonitR")
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+```
+
 ## prophet (0.1.1)
 Maintainer: Sean Taylor <sjt@fb.com>
 
@@ -4801,7 +4826,7 @@ checking installed package size ... NOTE
 
 checking dependencies in R code ... NOTE
 
-(R:18950): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
+(R:42922): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
 ```
 
 ## raw (0.1.4)
@@ -4966,7 +4991,7 @@ search.
 See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
 ```
 
-## RmarineHeatWaves (0.15.6)
+## RmarineHeatWaves (0.15.7)
 Maintainer: Albertus J. Smit <albertus.smit@gmail.com>
 
 0 errors | 0 warnings | 0 notes
@@ -5892,7 +5917,7 @@ The error most likely occurred in:
 > 
 > ### ** Examples
 ... 10 lines ...
-address 0x69f0, cause 'memory not mapped'
+address (nil), cause 'unknown'
 
 Traceback:
  1: arrangeGrob(...)
@@ -6149,7 +6174,7 @@ Execution halted
 Maintainer: Matt Dancho <mdancho@business-science.io>  
 Bug reports: https://github.com/business-science/tidyquant/issues
 
-2 errors | 1 warning  | 1 note 
+2 errors | 0 warnings | 1 note 
 
 ```
 checking examples ... ERROR
@@ -6176,47 +6201,24 @@ Calls: %>% ... do.call -> getSymbols.yahoo -> .getHandle -> new.session
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’
+  Running ‘testthat.R’ [23s/66s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
+  nrow(test2) not equal to 208.
+  1/1 mismatches
+  [1] 206 - 208 == -2
   
-  This message is shown once per session and may be disabled by setting 
-  options("getSymbols.warning4.0"=FALSE). See ?getSymbols for details.
   
-  WARNING: There have been significant changes to Yahoo Finance data.
-  Please see the Warning section of '?getSymbols.yahoo' for details.
-  
-  This message is shown once per session and may be disabled by setting
-  options("getSymbols.yahoo.warning"=FALSE).
-  Error in new.session(curl::new_handle()) : 
-    Could not establish session after 5 attempts.
-  Calls: test_check ... with_reporter -> force -> source_file -> eval -> eval
   testthat results ================================================================
-  OK: 0 SKIPPED: 0 FAILED: 0
+  OK: 185 SKIPPED: 2 FAILED: 5
+  1. Error: Test prints warning message on invalid x input. (@test_tq_get_dividends.R#23) 
+  2. Error: Test returns NA on invalid x input. (@test_tq_get_dividends.R#27) 
+  3. Failure: Test prints warning message on invalid x input. (@test_tq_get_splits.R#23) 
+  4. Failure: Test 1 returns tibble with correct rows and columns. (@test_tq_get_stock_prices.R#19) 
+  5. Failure: Test 2 returns tibble with correct rows and columns. (@test_tq_get_stock_prices.R#28) 
+  
+  Error: testthat unit tests failed
   Execution halted
-
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-    as_tibble
-
-The following object is masked from 'package:tibble':
-
-    as_tibble
-
-Getting data...
-... 8 lines ...
-Warning: x = 'AAPL', get = 'splits': Error in new.session(curl::new_handle()): Could not establish session after 5 attempts.
-
-additional arguments ignored in warning()
-Warning: x = 'AAPL', get = 'stock.prices': Error in new.session(curl::new_handle()): Could not establish session after 5 attempts.
-
-Warning: x = 'AAPL', get = 'key.ratios': Error in value[[3L]](cond): object 'key_ratios' not found
-
-Quitting from lines 176-179 (TQ01-core-functions-in-tidyquant.Rmd) 
-Error: processing vignette 'TQ01-core-functions-in-tidyquant.Rmd' failed with diagnostics:
-no applicable method for 'filter_' applied to an object of class "logical"
-Execution halted
 
 checking installed package size ... NOTE
   installed size is  5.2Mb
@@ -6269,7 +6271,7 @@ Error: object 'inaugCorpus' not found
 Execution halted
 
 checking tests ... ERROR
-  Running ‘testthat.R’
+  Running ‘testthat.R’ [10s/10s]
 Running the tests in ‘tests/testthat.R’ failed.
 Last 13 lines of output:
   5: eval(expr, pf)
@@ -6340,10 +6342,10 @@ The following objects are masked from 'package:base':
 
     intersect, setdiff, setequal, union
 
-
- *** caught segfault ***
-address 0x1c4, cause 'memory not mapped'
-Segmentation fault (core dumped)
+Quitting from lines 111-116 (Tigger-Vignette.Rmd) 
+Error: processing vignette 'Tigger-Vignette.Rmd' failed with diagnostics:
+task 1 failed - "Value of SET_STRING_ELT() must be a 'CHARSXP' not a 'raw'"
+Execution halted
 
 ```
 
@@ -6482,32 +6484,7 @@ Bug reports: https://github.com/jchrom/trelloR/issues
 Maintainer: Claudio Quezada-Romegialli <clquezada@harrodlab.net>  
 Bug reports: https://groups.google.com/d/forum/trophicposition-support
 
-0 errors | 1 warning  | 0 notes
-
-```
-checking re-building of vignette outputs ... WARNING
-Error in re-building vignettes:
-  ...
-14: eval(expr, envir, enclos)
-15: withVisible(eval(expr, envir, enclos))
-16: withCallingHandlers(withVisible(eval(expr, envir, enclos)), warning = wHandler,     error = eHandler, message = mHandler)
-17: handle(ev <- withCallingHandlers(withVisible(eval(expr, envir,     enclos)), warning = wHandler, error = eHandler, message = mHandler))
-18: timing_fn(handle(ev <- withCallingHandlers(withVisible(eval(expr,     envir, enclos)), warning = wHandler, error = eHandler, message = mHandler)))
-19: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)
-20: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &&         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))
-... 8 lines ...
-28: knitr::knit(knit_input, knit_output, envir = envir, quiet = quiet,     encoding = encoding)
-29: rmarkdown::render(file, encoding = encoding, quiet = quiet, envir = globalenv())
-30: vweave_rmarkdown(...)
-31: engine$weave(file, quiet = quiet, encoding = enc)
-32: doTryCatch(return(expr), name, parentenv, handler)
-33: tryCatchOne(expr, names, parentenv, handlers[[1L]])
-34: tryCatchList(expr, classes, parentenv, handlers)
-35: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    find_vignette_product(name, by = "weave", engine = engine)}, error = function(e) {    stop(gettextf("processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)), domain = NA, call. = FALSE)})
-36: buildVignettes(dir = "/home/muelleki/git/R/dplyr/revdep/checks/tRophicPosition.Rcheck/vign_test/tRophicPosition")
-An irrecoverable exception occurred. R is aborting now ...
-Segmentation fault (core dumped)
-```
+0 errors | 0 warnings | 0 notes
 
 ## tropr (0.1.2)
 Maintainer: Kim Seonghyun <shyeon.kim@scipi.net>  

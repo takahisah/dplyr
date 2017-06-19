@@ -1,0 +1,2 @@
+ERROR: dependencies ‘autothresholdr’, ‘EBImage’ are not available for package ‘nandb’
+* removing ‘/home/muelleki/R/x86_64-pc-linux-gnu-library/3.4/nandb’
